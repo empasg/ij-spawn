@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class EnemySpawns : MonoBehaviour
+public class EnemySpawnControl : MonoBehaviour
 {
     [SerializeField] private float _spawnTime;
     private EnemySpawner[] _enemySpawners;
